@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - MHR Tech Solutions</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+
+    <style>
+        body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial;}
+        .top-bar {
+            background: #000e1a;
+            color: white;
+            font-size: 14px;
+        }
+        .top-bar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        .top-bar a:hover {
+            color: red;
+        }
+        .navbar-nav .nav-link {
+            font-weight: bold;
+            color: black !important;
+            margin-left: 15px;
+        }
+        .navbar-nav .nav-link:hover {
+            color: red !important;
+        }
+        .contact-hero{
+            background: linear-gradient(135deg, #0d6efd, #6610f2);
+            color: white;
+            padding: 70px 0;
+            text-align: center;
+        }
+        .contact-form{
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info {
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        }
+        .contact-info h5 {
+            margin-top: 15px;
+        }
+        .social-icons a {
+            font-size: 22px;
+            margin-right: 15px;
+            color: #0d6efd;
+            transition: 0.3s;
+        }
+        .social-icons a:hover {
+            color: #6610f2;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <div class="bg-dark text-white py-2">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class=" d-flex align-items-center">
+                <span class="d-flex align-items-center me-3">
+                    <i class="fas fa-phone me-2"></i> +880 1790 820 143
+                </span>
+                <span class="d-flex align-items-center">
+                    <i class="fas fa-envelope me-2"></i> mmahbur90@gmail.com
+                </span>
+            </div>
+            <div>
+                <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white me-2"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-white me-2"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="/Media/MHR logo.png" alt="" class="rounded" height="40px" width="100px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navBar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="about_us.html" class="nav-link">ABOUT</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">SERVICE</a></li>
+                    <li class="nav-item"><a href="blog_page.html" class="nav-link">BLOGE</a></li>
+                    <li class="nav-item"><a href="contact_us.html" class="nav-link">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+     <section class="contact-hero">
+        <div class="container">
+            <h1>Get in Touch with Us</h1>
+            <p>We’d love to hear from you. Fill out the form or contact us directly.</p>
+        </div>
+     </section>
+
+     <!-- Contact Form + Info -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Contact Form -->
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <h3>Send us a Message</h3>
+                        <form action="" method="post">
+                            <div class="mb-3">
+                                <label for="full_name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="full_name" placeholder="Your name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" name="" id="email" class="form-control" placeholder="example@email.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone"  class="form-label">Phone Number</label>
+                                <input type="text" name="" id="phone" class="form-control" placeholder="+8801XXXXXXXXX">
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" class="form-control" placeholder="Message Subject">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea name="" id="message" class="form-control" rows="5" placeholder="Write your message..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div> 
+                <!-- Contact Info -->
+                <div class="col-md-5">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i>House #12, Road #5, Dhaka, Bangladesh
+                        </p>
+                        <p><i class="fas fa-envelope"></i> info@mhrtechsolutions.com</p>
+                        <p><i class="fas fa-phone"></i>+880 1790-820143</p>
+                        <h5>Working Hours</h5>
+                        <p>Sun - Thu: 9:00 AM - 6:00 PM</p>
+                        <p>Fri - Sat: Closed</p>
+                        <div class="socil-icons mt-3">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Map -->
+    <section class="map">
+        <div class="container-fluid p-0">
+            <iframe src="https://maps.google.com/maps?q=dhaka&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section> 
+    
+    <footer class="bg-dark text-light pt-5 pb-3">
+        <div class="container">
+            <div class="row g-3">
+                <!-- Company Info -->
+                <div class="col-lg-4 col-md-6">
+
+                    <h5 class="fw-bold mb-3">MHR Tech Solutions</h5>
+                    <p>
+                        Smart Solutions for a Smarter World — We deliver innovative, scalable, and secure technology
+                        solutions for businesses of all sizes.
+                    </p>
+                    <div class="d-flex gap-2">
+                        <a href="#" class="text-light"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Quick Link</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="" class="text-light text-decoration-none">About Us</a></li>
+                        <li><a href="" class="text-light text-decoration-none">Services</a></li>
+                        <li><a href="" class="text-light text-decoration-none">Portfolio</a></li>
+                        <li><a href="" class="text-light text-decoration-none">Blog</a></li>
+                        <li><a href="" class="text-light text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Services -->
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-3">Our Services</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Web Development</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Mobile App Development</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">ERP Solutions</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">E-Commerce</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Info -->
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-3">Contact Us</h6>
+                    <p class="mb-1"><i class="fas fa-map-marker-alt me-2"></i> Dhaka, Bangladesh</p>
+                    <p class="mb-1"><i class="fas fa-phone me-2"></i> +880 1790 820 143</p>
+                    <p class="mb-1"><i class="fas fa-envelope me-2"></i> info@mhrtechsolutions.com</p>
+                </div>
+            </div>
+             <hr class="border-light mt-4">
+
+            <div class="text-center">
+                <small>&copy; 2025 MHR Tech Solutions. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
